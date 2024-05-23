@@ -5,15 +5,23 @@ import AppDesign from '../../assets/app-design.png';
 function Skills() {
     return (
       <section id="skills">
-        <span className="skillTitle">What I do</span>
+        <span className="skillTitle">What I Know</span>
         <span className="skillDesc">
-          I am a skilled and passionate web designer with experience in creating
-          visually aspecting appealing and user-friendly websites.I have a
-          strong understanding of design and a keen eye for detail.I am
-          proficient in HTML,CSS and Javascript,as well as design software such
-          as Adobe Photoshop and illustrator.
-        </span>
-        <div className="skillBars">
+          I am a skilled and passionate web developer with expertise in frontend
+          development. My skills include:
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Responsive web design</li>
+            <li>Pega</li>
+            <li>Version control systems (e.g., Git)</li>
+          </ul>
+        </span><br/>
+        I have hands-on experience in creating engaging and dynamic user
+        interfaces using modern frontend technologies.
+        {/* <div className="skillBars">
           <div className="skillBar">
             <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
             <div className="skillBarText">
@@ -25,7 +33,10 @@ function Skills() {
             <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
             <div className="skillBarText">
               <h2>Website design</h2>
-              <p>This demo test can be charged while making the production ready website.</p>
+              <p>
+                This demo test can be charged while making the production ready
+                website.
+              </p>
             </div>
           </div>
           <div className="skillBar">
@@ -35,7 +46,7 @@ function Skills() {
               <p>You can write text related to mobile app development.</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     );
 }

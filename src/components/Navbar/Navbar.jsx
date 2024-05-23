@@ -33,7 +33,7 @@ function Navbar() {
         >
           About
         </Link>
-        <Link
+        {/* <Link
           activeClass="active"
           to="works"
           spy={true}
@@ -42,8 +42,8 @@ function Navbar() {
           duration={500}
           className="desktopMenuListItem"
         >
-          Portfolio
-        </Link>
+          My Resume
+        </Link> */}
         <Link
           activeClass="active"
           to="clients"
@@ -53,7 +53,7 @@ function Navbar() {
           duration={500}
           className="desktopMenuListItem"
         >
-          Clients
+          Experience
         </Link>
       </div>
       <button
@@ -66,6 +66,7 @@ function Navbar() {
         <img src={contact} alt="" className="desktopMenuImg" />
         Contact Me
       </button>
+      {/* Responsiveness */}
       <img src={menu} alt="Menu" className="mobMenu" onClick={()=>setShowMenu(!showMenu) } />
       <div className="navMenu" style={{display: showMenu?'flex':'none'}}>
         <Link
@@ -91,7 +92,7 @@ function Navbar() {
         >
           About
         </Link>
-        <Link
+        {/* <Link
           activeClass="active"
           to="works"
           spy={true}
@@ -100,8 +101,8 @@ function Navbar() {
           duration={500}
           className="listItem" onclick={()=>setShowMenu(false)}
         >
-          Portfolio
-        </Link>
+          My Resume
+        </Link> */}
         <Link
           activeClass="active"
           to="clients"

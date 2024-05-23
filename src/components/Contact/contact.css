@@ -16,6 +16,7 @@
 .clientDesc{
     font-weight:300;
     font-size:1rem;
+    text-align: left;
 }
 .clientImgs{
     margin:1rem 0;
